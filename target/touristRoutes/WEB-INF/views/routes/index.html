@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script
+            src="https://api-maps.yandex.ru/2.1/?apikey=e0bc5d1d-94da-42f9-a4e0-cd7d994894d1&lang=ru_RU"
+            type="text/javascript"
+    ></script>
+
+<!--    <link rel="stylesheet" href="style.css" />-->
+</head>
+<body>
+
+    <div >
+<!--        <p th:text = "${point.getFirstCoordinate()}">Value</p>-->
+    </div>
+    <div id="map" class="map" style="width: 1440px; height: 850px; background-color: #c6c6c6;"></div>
+
+    <script th:src="@{/js/script.js}"></script>
+
+</body>
+</html>
